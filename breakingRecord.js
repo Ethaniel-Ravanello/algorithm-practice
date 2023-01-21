@@ -16,4 +16,8 @@ function breakingRecords(scores) {
 	return [highestScoreCount, lowestScoreCount];
 }
 
-console.log(breakingRecords([3, 4, 21, 36, 10, 28, 35, 5, 60, 90]));
+console.log(
+	breakingRecords([
+		3, 4, 21, 36, 10, 28, 35, 5, 60, 90, 2312, 23, 2334, 21, 32, 42,
+	])
+);
