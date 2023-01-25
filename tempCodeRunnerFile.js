@@ -1,1 +1,2 @@
-let result = split[le];
+from(String(number), Number);
+}
