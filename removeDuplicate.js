@@ -9,4 +9,4 @@ function removeDuplicate(head) {
 	return result;
 }
 
-console.log(removeDuplicate([1, 1, 2, 3, 4, 6, 6, 7, 8]));
+console.log(removeDuplicate([1, 2, 1, 2, 2, 3, 4, 5, 5, 5, 5]));
