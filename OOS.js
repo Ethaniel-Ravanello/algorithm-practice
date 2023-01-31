@@ -94,15 +94,15 @@ function pemisahBasket(item){
     let organicBasket = []
     let otherBasket = []
 
-    for(let i = 0; i < item.lenght; i++){
-        if(item[i].itemType === "Food"){
+    for(let i = 0; i < item.length; i++){
+        if(item[i].itemType === "Food" || item[i].itemType === "Drink"){
             organicBasket.push(item[i].itemType)
         }
-        else if(item[i].itemType === "Tools" && "Cleaner"){
-            otherBasket.push(item[i])
+        else if(item[i].itemType === "Tools" || item[i].itemType === "Cleaner"){
+            otherBasket.push(item[i].itemType)
         }
     }
-    console.log(organicBasket)
+    return `${organicBasket} ${otherBasket}`
 }
 
-pemisahBasket(value)
+console.log(pemisahBasket(value))
