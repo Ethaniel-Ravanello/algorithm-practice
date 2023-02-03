@@ -21,28 +21,26 @@
 
 //         {
 //             Name: "Employee1",
-//             Gender : "Male", 
+//             Gender : "Male",
 //             Age : 20,
-//             Permanen : true, 
+//             Permanen : true,
 //         },
 //         {
 //             Name: "Employee2",
-//             Gender : "Female", 
+//             Gender : "Female",
 //             Age : 25,
-//             Permanen : false, 
+//             Permanen : false,
 //         },
 //         {
 //             Name: "Employee3",
-//             Gender : "Male", 
+//             Gender : "Male",
 //             Age : 33,
-//             Permanen : true, 
+//             Permanen : true,
 //         },
 
 // ]
 
 // let json = JSON.stringify(table)
-
-
 
 // fetch(json)
 // .then(response => response.json())
@@ -52,57 +50,88 @@
 //     console.log(data)
 // }
 
-
 let produk = [
+	{
+		Name: "Employee1",
+		Gender: "Male",
+		Age: 20,
+		Permanen: true,
+		itemType: "Food",
+	},
+	{
+		Name: "Employee2",
+		Gender: "Female",
+		Age: 25,
+		Permanen: false,
+		itemType: "Drink",
+	},
+	{
+		Name: "Employee3",
+		Gender: "Male",
+		Age: 33,
+		Permanen: true,
+		itemType: "Tools",
+	},
+	{
+		Name: "Employee3",
+		Gender: "Male",
+		Age: 33,
+		Permanen: true,
+		itemType: "Cleaner",
+	},
+];
 
-        {
-            Name: "Employee1",
-            Gender : "Male", 
-            Age : 20,
-            Permanen : true,
-            itemType: "Food" 
-        },
-        {
-            Name: "Employee2",
-            Gender : "Female", 
-            Age : 25,
-            Permanen : false,
-            itemType: "Drink" 
-        },
-        {
-            Name: "Employee3",
-            Gender : "Male", 
-            Age : 33,
-            Permanen : true,
-            itemType: "Tools" 
-        },
-        {
-            Name: "Employee3",
-            Gender : "Male", 
-            Age : 33,
-            Permanen : true,
-            itemType: "Cleaner" 
-        },
+let value = Object.values(produk);
 
-]
+// function pemisahBasket(item){
+//     let organicBasket = []
+//     let otherBasket = []
 
-let value = Object.values(produk)
+//     for(let i = 0; i < item.length; i++){
+//         if(item[i].itemType === "Food" || item[i].itemType === "Drink"){
+//             organicBasket.push(item[i].itemType)
+//         }
+//         else if(item[i].itemType === "Tools" || item[i].itemType === "Cleaner"){
+//             otherBasket.push(item[i].itemType)
+//         }
+//     }
+//     return `${organicBasket} ${otherBasket}`
+// }
 
+// console.log(pemisahBasket(value))
 
+const fileJson = {
+	shopingList: [
+		{
+			id: 1,
+			Item: "IDM Ramos Super 5KG",
+			Price: 59900,
+			Discount: 4000,
+			Value: 1,
+		},
+		{
+			id: 2,
+			Item: "So Klin Softergen 800",
+			Price: 14700,
+			Discount: 2200,
+			Value: 1,
+		},
+		{
+			id: 3,
+			Item: "Mogu Mogu Lyche 320",
+			Price: 59900,
+			Discount: 0,
+			Value: 1,
+		},
+		{
+			id: 4,
+			Item: "Plastik BSR",
+			Price: 59900,
+			Discount: 0,
+			Value: 3,
+		},
+	],
+};
+let filter = fileJson.shopingList.filter((items) => items.Discount !== 0);
 
-function pemisahBasket(item){
-    let organicBasket = []
-    let otherBasket = []
-
-    for(let i = 0; i < item.length; i++){
-        if(item[i].itemType === "Food" || item[i].itemType === "Drink"){
-            organicBasket.push(item[i].itemType)
-        }
-        else if(item[i].itemType === "Tools" || item[i].itemType === "Cleaner"){
-            otherBasket.push(item[i].itemType)
-        }
-    }
-    return `${organicBasket} ${otherBasket}`
-}
-
-console.log(pemisahBasket(value))
+console.log(filter);

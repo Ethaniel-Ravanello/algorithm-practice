@@ -1,0 +1,33 @@
+{
+    "shopingList" : [
+        {
+            "id" : 1,
+            "Item" : "IDM Ramos Super 5KG",
+            "Price" : 59900,
+            "Discount" : 4000,
+            "Value" : 1
+        },
+        {
+            "id" : 2,
+            "Item" : "So Klin Softergen 800",
+            "Price" : 14700,
+            "Discount" : 2200,
+            "Value" : 1
+        },
+        {
+            "id" : 3,
+            "Item" : "Mogu Mogu Lyche 320",
+            "Price" : 59900,
+            "Discount" : 0,
+            "Value" : 1
+        },
+        {
+            "id" : 4,
+            "Item" : "Plastik BSR",
+            "Price" : 59900,
+            "Discount" : 0,
+            "Value" : 3
+        }
+        
+    ]
+}
