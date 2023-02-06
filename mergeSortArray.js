@@ -6,7 +6,7 @@ function mergeSortArrat(arr1, arr2) {
 		return num !== 0;
 	});
 
-	let combine = arr1.concat(arr2);
+	let combine = filter1.concat(filter2);
 	let sortCombine = combine.sort();
 
 	return sortCombine;
