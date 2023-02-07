@@ -140,6 +140,7 @@ let employeeOne;
 let employeeTwoo;
 let gender;
 let male;
+let female;
 let jSon_1;
 let jSon_2;
 let jSon_3;
