@@ -136,5 +136,6 @@ let filter = fileJson.shopingList.filter((items) => items.Discount !== 0);
 
 let objectName;
 let companyName;
+let employeeOne;
 
 console.log(filter);
