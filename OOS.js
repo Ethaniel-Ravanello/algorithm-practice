@@ -134,11 +134,6 @@ const fileJson = {
 };
 let filter = fileJson.shopingList.filter((items) => items.Discount !== 0);
 
-let filss;
-let filss2;
-let filss3;
-let filss4;
-let filss5;
-let filss6;
+let objectName;
 
 console.log(filter);
