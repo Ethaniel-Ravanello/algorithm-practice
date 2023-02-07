@@ -139,5 +139,7 @@ let companyName;
 let employeeOne;
 let employeeTwoo;
 let jSon_1;
+let jSon_2;
+let jSon_3;
 
 console.log(filter);
