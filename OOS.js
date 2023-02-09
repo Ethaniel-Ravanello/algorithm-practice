@@ -156,3 +156,6 @@ function oos(n) {
 }
 
 oos(3);
+
+let a = "applepenapple";
+let b = "applepen";
