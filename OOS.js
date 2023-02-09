@@ -159,3 +159,7 @@ oos(3);
 
 let a = "applepenapple";
 let b = "applepen";
+
+let aSplit = a.split("");
+
+console.log(aSplit);
