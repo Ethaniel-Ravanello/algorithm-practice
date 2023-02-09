@@ -161,5 +161,6 @@ let a = "applepenapple";
 let b = "applepen";
 
 let aSplit = a.split("");
+let bSplit = b.split("");
 
-console.log(aSplit);
+console.log(aSplit === bSplit);
