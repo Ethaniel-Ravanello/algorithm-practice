@@ -148,7 +148,7 @@
 // console.log(filter);
 
 function oos(n) {
-	for (let i = 1; i <= n; i++) {
+	for (let i = 0; i <= n; i++) {
 		for (let j = 1; j <= 3; j++) {
 			console.log(i);
 		}
