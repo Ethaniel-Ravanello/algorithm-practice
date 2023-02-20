@@ -5,6 +5,7 @@ function isAnagram(s, t) {
   let zero0;
   let zero1;
   let zero2;
+  let zero3;
   if (s === t) {
     return true;
   } else {
