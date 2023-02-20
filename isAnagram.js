@@ -3,6 +3,7 @@ function isAnagram(s, t) {
   t = t.split("").sort().join();
   let abcdefg;
   let zero;
+  let zero1;
   if (s === t) {
     return true;
   } else {
