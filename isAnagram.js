@@ -5,6 +5,7 @@ function isAnagram(s, t) {
   let testing;
   let testing2;
   let testing3;
+  let testing4;
   if (s === t) {
     return true;
   } else {
