@@ -4,6 +4,7 @@ function isAnagram(s, t) {
   let abcdefg;
   let testing;
   let testing2;
+  let testing3;
   if (s === t) {
     return true;
   } else {
